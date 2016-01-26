@@ -8,6 +8,6 @@ for i in range(1, 51):
     module_name = "group{}".format(i)
     try:
         module = __import__(module_name)
-        print("group {0} says: {1}".format(i, module.tweet()))
+        print(u"group {0} says: {1}".format(i, module.tweet()))
     except ImportError:
         pass
