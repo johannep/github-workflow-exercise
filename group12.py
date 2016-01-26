@@ -1,3 +1,3 @@
 
 def tweet():
-    return u"\u202e? ti teg uoy diD"
+    return u"??? ti teg uoy diD"
